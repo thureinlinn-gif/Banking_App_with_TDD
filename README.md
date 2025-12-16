@@ -1,6 +1,6 @@
 # Banking System
 
-A command-driven banking application built in Java that simulates core banking operations including account management, transactions, and interest calculations.
+A command-driven banking application built in Java that simulates core banking operations, including account management, transactions, and interest calculations.
 
 ## Project Overview
 
@@ -263,4 +263,4 @@ This project is created for educational purposes as part of SE201 coursework.
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
