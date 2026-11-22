@@ -34,9 +34,10 @@ public class TransactionTest {
 
     @Test
     public void transaction_formatted_date_contains_year() {
-        Transaction transaction = new Transaction("deposit", 100.0, System.currentTimeMillis());
+        // Fixed timestamp (2025-06-15) keeps this test independent of the current year
+        Transaction transaction = new Transaction("deposit", 100.0, 1750000000000L);
         String formatted = transaction.getFormattedDate();
-        assertTrue(formatted.contains("2024") || formatted.contains("2025"));
+        assertTrue(formatted.startsWith("2025-06-15"));
     }
 
     @Test
